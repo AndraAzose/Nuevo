@@ -1,0 +1,36 @@
+#!/bin/bash
+echo -e "\e[0;31m"
+echo "Bienvenido"
+echo -e "\e[1;31m"
+sleep 1
+echo "script para localización"
+echo -e "\e[0;32m"
+sleep 1
+echo "¿nombre o teléfono de la persona a localizar?"
+read inf
+echo -e "\e[1;34m"
+echo "buscando información de $inf"
+sleep 2
+echo "detectando identificación de $inf"
+echo " | 10% |"
+sleep 1
+echo "localizando ubicación de $inf"
+echo " | 20% |"
+sleep 1
+echo "detectando nombre completo de $inf"
+echo "| 30% |"
+sleep 1
+echo "información del vehículo de $inf"
+echo " | 40% |"
+sleep 1
+echo "identificación de familiares de $inf"
+echo " | 50% |"
+sleep 1
+echo "cuentas bancarias de $inf"
+echo " | 60% |"
+sleep 1
+echo "registro académico de $inf"
+echo " | 70% |"
+sleep 4
+echo -e "\e[0;31m"
+echo "FALLO EN EL SERVIDOR"
